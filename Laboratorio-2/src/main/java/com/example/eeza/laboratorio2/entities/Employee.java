@@ -1,8 +1,8 @@
-package com.example.eeza.laboratorio2.Entities;
+package com.example.eeza.laboratorio2.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;import lombok.Data;
+import lombok.Data;
 
 import lombok.NoArgsConstructor;
 
