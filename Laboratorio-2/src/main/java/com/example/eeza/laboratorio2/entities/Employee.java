@@ -37,6 +37,9 @@ public class Employee {
     @Column(name = "password")
     private String password;
 
+    @Column(name = "role")
+    private String role;
+
     @OneToOne
     @JoinColumn(name = "superior_id", nullable = false, foreignKey = @ForeignKey(name = "fk_employee_superior"))
     private Employee superior;
